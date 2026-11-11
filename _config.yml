@@ -9,11 +9,9 @@ author: Ryke
 lang: en-US
 timezone: America/Chicago
 
-# Replace YOUR-USERNAME with your GitHub username.
-# For a user site (repo named YOUR-USERNAME.github.io), leave baseurl as "".
-# For a project site (any other repo name), set baseurl to "/repo-name".
-url: "https://YOUR-USERNAME.github.io"
-baseurl: ""
+# Site lives at https://rykeam.github.io/rykeam/
+url: "https://rykeam.github.io"
+baseurl: "/rykeam"
 
 # ------------------------------------------------------------------
 # Theme (GitHub Pages supported)
@@ -42,7 +40,7 @@ plugins:
 social:
   name: Ryke
   links:
-    - https://github.com/YOUR-USERNAME
+    - https://github.com/rykeam
     # - https://www.linkedin.com/in/YOUR-LINKEDIN
 
 # ------------------------------------------------------------------
@@ -75,8 +73,8 @@ permalink: /:year/:month/:title/
 # ------------------------------------------------------------------
 # Build
 # ------------------------------------------------------------------
+# README.md is NOT excluded: it is currently the homepage.
 exclude:
-  - README.md
   - LICENSE
   - Gemfile
   - Gemfile.lock
